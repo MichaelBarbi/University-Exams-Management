@@ -3,6 +3,8 @@ UNIVERSITY EXAMS MANAGEMENT
 A Java desktop application developed for the OOP university exam as part of the Computer Science degree at Unimore. 
 The application allows you to manage the exams of different students, enabling you to perform CRUD operations on locally stored files related to exams, students, and subjects.
 
+![Home](https://github.com/MichaelBarbi/University-Exams-Management/blob/master/readmeImages/home.png)
+
 --------------------------------------------------------------------------------------------------
 
 PREREQUISITES (ITA)
@@ -155,16 +157,26 @@ For the second type, the exam is composed of multiple sub-exams. Therefore, you 
 
 • Filter the existing exams by subject name or student matriculation number
 
+![Exams section](https://github.com/MichaelBarbi/University-Exams-Management/blob/master/readmeImages/exams.png) ![Simple exam form](https://github.com/MichaelBarbi/University-Exams-Management/blob/master/readmeImages/simpleExam.png) 
+![Complex exam form](https://github.com/MichaelBarbi/University-Exams-Management/blob/master/readmeImages/complexExam.png)
+
 CONFIGURATION
 
 In the configuration section, the user can insert new students and new subjects into the local file-based database. 
 For a new student, the matriculation number, first name, and last name are required. For the subject, the title and the number of CFU (ECTS credits - European Credit Transfer and Accumulation System) are required. 
 Every action carried out in this section is automatically saved to the file, so you don't need to save manually.
 
+![Students form](https://github.com/MichaelBarbi/University-Exams-Management/blob/master/readmeImages/students.png)
+![Subjects form](https://github.com/MichaelBarbi/University-Exams-Management/blob/master/readmeImages/subjects.png)
+
 STATISTICS
 
 In the statistics section, based on the category you select (either subject or student), you will see a histogram of the current exam marks saved in the file.
 
+![Statistics section](https://github.com/MichaelBarbi/University-Exams-Management/blob/master/readmeImages/stats.png)
+
 FILE
 
 In the file section, you can save the current list of exams to your file system for future import with the purpose of modifying it. You can also print the list of exams, create a new file and enable/disable automatic saving.
+
+![File Section](https://github.com/MichaelBarbi/University-Exams-Management/blob/master/readmeImages/file.png)
