@@ -1,0 +1,2 @@
+# Ignore the generated HTMl documentary
+src/staticfiles/doc/**/*.html linguist-vendored
