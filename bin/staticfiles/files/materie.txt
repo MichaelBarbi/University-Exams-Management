@@ -1,0 +1,7 @@
+6
+Algebra,9
+Analisi 1,6
+Analisi 2,6
+Inglese,6
+Programmazione ad oggetti,9
+Sistemi operativi,9
